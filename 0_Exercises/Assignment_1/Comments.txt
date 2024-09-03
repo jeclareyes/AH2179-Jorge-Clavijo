@@ -1,25 +1,17 @@
-Jorge Clavijo - Assignment 1
-
 https://github.com/jeclareyes/AH2179-Jorge-Clavijo/tree/main/0_Exercises/Assignment_1
-
-Model inputs:
-Model output:
-Train size:
-Test size:
-Objective function ???
-
-Best parameters:
-
-n_estimators: 300
+ A regression model with the XGBoost library was developed to predict bus arrival delays using a dataset containing 2,179 samples with features such as dwell_time, scheduled_travel_time, upstream_stop_delay, and recurrent_delay. The target variable is the arrival_delay.
+ The dataset was split into 80% for training and 20% for testing, and feature normalization was applied using StandardScaler. A grid search (GridSearchCV) with 5-fold cross-validation was employed to tune the hyperparameters and the objective function used was the mean squared error.
+ The best parameters obtained were:
+ n_estimators: 300
 learning_rate: 0.05
 max_depth: 3
 subsample: 0.8
 colsample_bytree: 0.7
+ The final model achieved a performance on the test set with a MSE of 223.18, MAE of 10.95, and an R² of 0.99. The RMSE was 14.93.
+I learned the importance of making an informed choice of parameter values to improve the performance of regression models. I also reviewed the documentation and used the feature_importances_ attribute, which provides a normalized vector indicating the importance of each feature in the model's predictions. I found that "Upstream_stop_delay" is the most significant feature, with an importance value of 0.93. 
+These techniques could also be applied to other transportation problems, such as estimating travel demand, travel times and the operational costs.
+ References
 
-Testing performance:
+DMLC XGBoost. (s.f.). XGBoost documentation. Retrieved from https://xgboost.readthedocs.io/en/stable/
 
-Mean Squared Error: 223.18
-Mean Absolute Error: 10.95
-R-squared: 0.99
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Ma, Z. (2024, August). Lecture 2 - Regression Models. Retrieved from https://canvas.kth.se/courses/51823/files/8077030?module_item_id=932713
