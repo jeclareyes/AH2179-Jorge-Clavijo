@@ -1,0 +1,25 @@
+Jorge Clavijo - Assignment 1
+
+https://github.com/jeclareyes/AH2179-Jorge-Clavijo/tree/main/0_Exercises/Assignment_1
+
+Model inputs:
+Model output:
+Train size:
+Test size:
+Objective function ???
+
+Best parameters:
+
+n_estimators: 300
+learning_rate: 0.05
+max_depth: 3
+subsample: 0.8
+colsample_bytree: 0.7
+
+Testing performance:
+
+Mean Squared Error: 223.18
+Mean Absolute Error: 10.95
+R-squared: 0.99
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
