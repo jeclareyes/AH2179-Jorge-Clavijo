@@ -1,4 +1,4 @@
-Vectorizer,Model,Accuracy,Confusion Matrix,Best Parameters
+Vectorizer,Model,Accuracy,Confusion_Matrix,Best Parameters
 CountVectorizer,Logistic Regression,0.957345971563981,"PP: 192, PN: 5, NP: 13, NN: 212",{'C': 10}
 CountVectorizer,K-Nearest Neighbors,0.943127962085308,"PP: 188, PN: 9, NP: 15, NN: 210","{'n_neighbors': 9, 'weights': 'distance'}"
 CountVectorizer,Random Forest,0.9739336492890995,"PP: 192, PN: 5, NP: 6, NN: 219","{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}"
