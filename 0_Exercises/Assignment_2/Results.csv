@@ -1,0 +1,18 @@
+0,CountVectorizer,Logistic Regression,0.957346,"PP: 192, PN: 5, NP: 13, NN: 212",{'C': 10}
+1,CountVectorizer,K-Nearest Neighbors,0.943128,"PP: 188, PN: 9, NP: 15, NN: 210","{'n_neighbors': 9, 'weights': 'distance'}"
+2,CountVectorizer,Random Forest,0.973934,"PP: 192, PN: 5, NP: 6, NN: 219","{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}"
+3,CountVectorizer,XGBoost,0.964455,"PP: 193, PN: 4, NP: 11, NN: 214","{'learning_rate': 0.2, 'max_depth': 3, 'n_estimators': 300}"
+4,CountVectorizer,Support Vector Machine,0.962085,"PP: 191, PN: 6, NP: 10, NN: 215","{'C': 0.1, 'kernel': 'linear'}"
+5,CountVectorizer,Naive Bayes,0.957346,"PP: 190, PN: 7, NP: 11, NN: 214",{'alpha': 0.5}
+6,HashingVectorizer,Logistic Regression,0.950237,"PP: 186, PN: 11, NP: 10, NN: 215",{'C': 10}
+7,HashingVectorizer,K-Nearest Neighbors,0.943128,"PP: 187, PN: 10, NP: 14, NN: 211","{'n_neighbors': 9, 'weights': 'distance'}"
+8,HashingVectorizer,Random Forest,0.976303,"PP: 191, PN: 6, NP: 4, NN: 221","{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 500}"
+9,HashingVectorizer,XGBoost,0.962085,"PP: 189, PN: 8, NP: 8, NN: 217","{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300}"
+10,HashingVectorizer,Support Vector Machine,0.976303,"PP: 190, PN: 7, NP: 3, NN: 222","{'C': 1, 'kernel': 'rbf'}"
+11,HashingVectorizer,Naive Bayes,0.817536,"PP: 166, PN: 31, NP: 46, NN: 179",{'alpha': 0.5}
+12,TfidfVectorizer,Logistic Regression,0.962085,"PP: 189, PN: 8, NP: 8, NN: 217",{'C': 1}
+13,TfidfVectorizer,K-Nearest Neighbors,0.898104,"PP: 174, PN: 23, NP: 20, NN: 205","{'n_neighbors': 5, 'weights': 'distance'}"
+14,TfidfVectorizer,Random Forest,0.973934,"PP: 190, PN: 7, NP: 4, NN: 221","{'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}"
+15,TfidfVectorizer,XGBoost,0.976303,"PP: 191, PN: 6, NP: 4, NN: 221","{'learning_rate': 0.2, 'max_depth': 3, 'n_estimators': 200}"
+16,TfidfVectorizer,Support Vector Machine,0.969194,"PP: 189, PN: 8, NP: 5, NN: 220","{'C': 1, 'kernel': 'rbf'}"
+17,TfidfVectorizer,Naive Bayes,0.959716,"PP: 191, PN: 6, NP: 11, NN: 214",{'alpha': 1}
