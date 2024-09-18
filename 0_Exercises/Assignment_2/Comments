@@ -1,0 +1,15 @@
+https://github.com/jeclareyes/AH2179-Jorge-Clavijo/tree/main/0_Exercises/Assignment_2Links to an external site.
+
+In this assignment, several machine learning models were used for text classification in traffic sentiment analysis. The models include Logistic Regression, K-Nearest Neighbors (KNN), Random Forest (RF), XGBoost, Support Vector Machine (SVM), and Naïve Bayes, utilizing three different text vectorization techniques: CountVectorizer, HashingVectorizer, and TfidfVectorizer. The dataset was divided into training (80%) and testing (20%) sets, with hyperparameter tuning performed using grid search with 5-fold cross-validation.
+
+The input data consisted of traffic-related comments and their associated sentiment labels (positive or negative). The outputs were the predicted sentiment classifications. The objective function aimed to maximize classification accuracy on the test set. Models were trained using combinations of hyperparameters such as C (regularization strength for SVM and Logistic Regression), n_estimators, max_depth, and learning_rate for ensemble models like Random Forest and XGBoost. (See Results Table in my repository).
+
+The best-performing models were HashingVectorizer with Random Forest and SVM (both with 0.9763 accuracy), TfidfVectorizer with XGBoost (0.9763), and CountVectorizer with Random Forest (0.9739). SVM with HashingVectorizer ({'C': 1, 'kernel': 'rbf'}) demonstrated the lowest false negatives (3) and a high number of true negatives (222), making it the most balanced model for classifying both positive and negative sentiments correctly.
+
+I learned the importance of hyperparameter tuning and selecting the best combination between the vectorization method and model. I think these tools can be used to analyze public opinions on transportation policies or customer satisfaction with transit services.
+
+AI tools were used to create the result images and tables to summarize better and comprehend outputs.
+
+References:
+
+Ma, Z. (2024, September). Lecture 4 - Text classification. Retrieved from https://canvas.kth.se/courses/51823/files/8227052?module_item_id=948028
