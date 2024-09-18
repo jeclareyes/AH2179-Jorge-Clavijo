@@ -1,0 +1,46 @@
+"",model,Silhouette Score,Davies-Bouldin Score,Calinski-Harabasz Score,model_type,n_clusters,MAE,MAPE,eps,min_samples
+41,"DBSCAN(eps=1500, min_samples=4)",0.491689,1.028358,17.650820,DBSCAN,NaN,40.555786,0.536952,1500.0,4.0
+37,"DBSCAN(eps=1000, min_samples=3)",0.343547,2.436846,11.023698,DBSCAN,NaN,40.519915,0.540966,1000.0,3.0
+38,"DBSCAN(eps=1000, min_samples=4)",0.343547,2.436846,11.023698,DBSCAN,NaN,40.519915,0.540966,1000.0,4.0
+39,"DBSCAN(eps=1500, min_samples=2)",0.328344,0.575693,11.985173,DBSCAN,NaN,40.555786,0.536952,1500.0,2.0
+40,"DBSCAN(eps=1500, min_samples=3)",0.328344,0.575693,11.985173,DBSCAN,NaN,40.555786,0.536952,1500.0,3.0
+22,"GaussianMixture(n_components=2, random_state=0)",0.307621,1.267725,174.104884,GMM,2.0,28.622968,0.391131,NaN,NaN
+0,"KMeans(n_clusters=2, random_state=0)",0.307621,1.267725,174.104884,KMeans,2.0,28.951613,0.372175,NaN,NaN
+11,AgglomerativeClustering(),0.290945,1.279138,159.821505,Agglomerative,2.0,28.073462,0.367960,NaN,NaN
+36,"DBSCAN(eps=1000, min_samples=2)",0.283575,2.225406,9.938030,DBSCAN,NaN,40.519915,0.540966,1000.0,2.0
+1,"KMeans(n_clusters=3, random_state=0)",0.269241,1.358789,159.134213,KMeans,3.0,25.084581,0.330339,NaN,NaN
+23,"GaussianMixture(n_components=3, random_state=0)",0.269241,1.358789,159.134213,GMM,3.0,26.394596,0.328791,NaN,NaN
+12,AgglomerativeClustering(n_clusters=3),0.268112,1.313811,148.607605,Agglomerative,3.0,26.699042,0.226119,NaN,NaN
+14,AgglomerativeClustering(n_clusters=5),0.263778,1.231404,118.054696,Agglomerative,5.0,21.698308,0.186628,NaN,NaN
+13,AgglomerativeClustering(n_clusters=4),0.257637,1.460274,127.187152,Agglomerative,4.0,23.527414,0.203224,NaN,NaN
+15,AgglomerativeClustering(n_clusters=6),0.250363,1.460171,108.679506,Agglomerative,6.0,20.236522,0.166666,NaN,NaN
+16,AgglomerativeClustering(n_clusters=7),0.243157,1.513606,100.749684,Agglomerative,7.0,19.932581,0.154570,NaN,NaN
+27,"GaussianMixture(n_components=7, random_state=0)",0.241332,1.481357,103.050630,GMM,7.0,25.830930,0.347796,NaN,NaN
+5,"KMeans(n_clusters=7, random_state=0)",0.241332,1.481357,103.050630,KMeans,7.0,21.396944,0.209744,NaN,NaN
+17,AgglomerativeClustering(n_clusters=8),0.239635,1.440534,91.736572,Agglomerative,8.0,19.765820,0.153455,NaN,NaN
+4,"KMeans(n_clusters=6, random_state=0)",0.239601,1.454940,115.185215,KMeans,6.0,23.598474,0.240498,NaN,NaN
+26,"GaussianMixture(n_components=6, random_state=0)",0.239601,1.454940,115.185215,GMM,6.0,25.335315,0.345398,NaN,NaN
+18,AgglomerativeClustering(n_clusters=9),0.233039,1.390687,84.412420,Agglomerative,9.0,19.163590,0.147708,NaN,NaN
+24,"GaussianMixture(n_components=4, random_state=0)",0.229860,1.789675,122.801617,GMM,4.0,23.342730,0.316319,NaN,NaN
+2,"KMeans(n_clusters=4, random_state=0)",0.229860,1.789675,122.801617,KMeans,4.0,23.415079,0.320867,NaN,NaN
+25,"GaussianMixture(n_components=5, random_state=0)",0.229698,1.515830,114.694738,GMM,5.0,23.468685,0.316736,NaN,NaN
+3,"KMeans(n_clusters=5, random_state=0)",0.229698,1.515830,114.694738,KMeans,5.0,21.960260,0.217549,NaN,NaN
+6,KMeans(random_state=0),0.224635,1.575806,94.887785,KMeans,8.0,21.353306,0.280007,NaN,NaN
+28,"GaussianMixture(n_components=8, random_state=0)",0.224635,1.575806,94.887785,GMM,8.0,21.302387,0.172836,NaN,NaN
+7,"KMeans(n_clusters=9, random_state=0)",0.216715,1.676599,86.615548,KMeans,9.0,19.831262,0.160068,NaN,NaN
+29,"GaussianMixture(n_components=9, random_state=0)",0.216715,1.676599,86.615548,GMM,9.0,24.727464,0.322154,NaN,NaN
+19,AgglomerativeClustering(n_clusters=10),0.215062,1.415068,78.955196,Agglomerative,10.0,18.685767,0.143978,NaN,NaN
+20,AgglomerativeClustering(n_clusters=11),0.192062,1.540013,74.390703,Agglomerative,11.0,18.350034,0.141787,NaN,NaN
+30,"GaussianMixture(n_components=10, random_state=0)",0.188830,1.743424,81.054500,GMM,10.0,25.066985,0.323684,NaN,NaN
+8,"KMeans(n_clusters=10, random_state=0)",0.188830,1.743424,81.054500,KMeans,10.0,19.831262,0.160068,NaN,NaN
+10,"KMeans(n_clusters=12, random_state=0)",0.180512,1.617700,72.488151,KMeans,12.0,19.676729,0.162092,NaN,NaN
+32,"GaussianMixture(n_components=12, random_state=0)",0.180512,1.617700,72.488151,GMM,12.0,21.939792,0.260018,NaN,NaN
+31,"GaussianMixture(n_components=11, random_state=0)",0.178876,1.724123,77.748236,GMM,11.0,24.330123,0.302064,NaN,NaN
+9,"KMeans(n_clusters=11, random_state=0)",0.178876,1.724123,77.748236,KMeans,11.0,19.848809,0.162906,NaN,NaN
+21,AgglomerativeClustering(n_clusters=12),0.173415,1.793704,70.408141,Agglomerative,12.0,17.923020,0.137229,NaN,NaN
+33,"DBSCAN(eps=500, min_samples=2)",-0.027721,2.379572,35.327906,DBSCAN,NaN,21.554819,0.279655,500.0,2.0
+34,"DBSCAN(eps=500, min_samples=3)",-0.027721,2.379572,35.327906,DBSCAN,NaN,28.244086,0.334548,500.0,3.0
+35,"DBSCAN(eps=500, min_samples=4)",-0.086267,2.167100,29.590314,DBSCAN,NaN,42.468899,0.443465,500.0,4.0
+42,"DBSCAN(eps=2000, min_samples=2)",NaN,NaN,NaN,DBSCAN,NaN,40.712128,0.534837,2000.0,2.0
+43,"DBSCAN(eps=2000, min_samples=3)",NaN,NaN,NaN,DBSCAN,NaN,40.712128,0.534837,2000.0,3.0
+44,"DBSCAN(eps=2000, min_samples=4)",NaN,NaN,NaN,DBSCAN,NaN,40.712128,0.534837,2000.0,4.0
